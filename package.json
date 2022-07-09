@@ -4,12 +4,15 @@
   "description": "(My First backend learning process)",
   "main": "1-intro.js",
   "scripts": {
-    "start": "nodemon 1-intro.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }
